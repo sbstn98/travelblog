@@ -1,0 +1,34 @@
+[
+  {
+    "country": "Italia",
+    "city": "Genova",
+    "arrivaldate": "14.02.2022",
+    "depaturedate": "30.02.2022",
+    "image": "https://www.visitgenoa.it/sites/default/files/gallery/AdobeStock_118239878_0_2.jpeg",
+    "description": "Nachdem das Flugzeug lange Zeit über bewaldete Hügelketten geflogen war, zog es plötzlich eine scharfe Rechtskurve. Ich saß am Fenster und sah gespannt hinab. In der Ferne konnte ich bereits das Meer erkennen und glaubte, auf der rechten Seite die Stadt Genua auszumachen. Als ob der Pilot den Reisenden eine besondere Freude machen wollte, nahm er nicht direkten Kurs auf die Stadt, sondern drehte einen weiten Bogen, um dann die ligurische Küste in östlicher Richtung abzufliegen. Mein Herz öffnete sich. "
+  },
+  {
+    "country": "greece",
+    "city": "saloniki",
+    "arrivaldate": "11.06.2022",
+    "depaturedate": "17.06.2022",
+    "image": "https://www.wikinger-reisen.de/bilder/reiseseiten/weisser-turm-in-thessaloniki-head6626-t.webp",
+    "description": "Eigentlich wollten wir nur einen Monat in Thessaloniki bleiben. Eigentlich. Doch die Stadt gefiel uns so gut und war so charmant, dass wir gleich zwei ganze Monate vor Ort blieben! Die kleinen Gässchen, die Altstadt, die Promenade, das Meer – all diese Dinge machen Thessaloniki mehr als sehens- und liebenswert. In diesem Beitrag erhältst du all meine persönlichen Thessaloniki Reisetipps. Und allem voran natürlich auch Input darüber, wie sich die griechische Hafenstadt in den Wintermonaten bereisen und erkunden lässt denn wir waren im Dezember und Januar vor Ort. "
+  },
+  {
+    "country": "bosnia",
+    "city": "Sarajevo",
+    "arrivaldate": "1.03.2021",
+    "depaturedate": "06.03.2021",
+    "image": "https://www.ab-in-den-urlaub.de/magazin/wp-content/uploads/2021/10/1634555118_Blick-auf-Sarajevo.jpg",
+    "description": "Sarajevo – für die meisten wohl keinen Urlaubsgedanken wert, für uns eines der Highlights unserer ersten Balkanwoche. Die Hauptstadt von Bosnien und Herzegowina besuchten wir gleich für 2 Nächte und konnten so einen beeindruckenden Kontrast aus der schlimmen Historie sowie der absolut aufstrebenden Entwicklung der Stadt wahrnehmen – Einschusslöcher, Nachtleben und religiöse Vielfalt inklusive."
+  },
+  {
+    "country": "france",
+    "city": "Marseille",
+    "arrivaldate": "21.03.2020",
+    "depaturedate": "24.04.2020",
+    "image": "https://imageserver.faszination-fankurve.de/Image/7/6/af0ea84dfe09b607286a94f18512714684ae3ffe3b0e58dd647de2a5a725c5/vorschau.jpg",
+    "description": "Der TGV legt die letzten Kilometer in Richtung Marseille zurück und ich kann meinen Blick nicht vom Fenster wenden. Ockergelbe Felder und dunkelgrüner Zypressen säumen den Horizont, dazwischen erheben sich graue Kirchen und Wohnhäuser. Wir passieren Arles, die Stadt, in der Van Gogh einen Teil seines Lebens verbrachte. Nun, da ich die Umgebung mit eigenen Augen sehe, verstehe ich, wie sehr diese Gegend seine Kunst geprägt hat."
+  }
+]

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main>
+      <nav class="own-column own-nav">
+        <div class="nav-top">
+          <a
+            class="nav-item"
+            href="travelapp.html"
+          >
+            <span class="icon is-small is-left mr-2">
+              <i class="fa fas fas fas fa-home"></i> </span
+            >Home</a
+          >
+          <a
+            class="nav-item"
+            href="addestination.html"
+          >
+            <span class="icon is-small is-left mr-2">
+              <i class="fa fas fas fas fa-plus"></i> </span
+            >Add</a
+          >
+          <a
+            class="nav-item"
+            href="traveller.html"
+          >
+            <span class="icon is-small is-left mr-2">
+              <i class="fa fas fas fas fa-user"></i> </span
+            >Profile</a
+          >
+        </div>
+      </nav>
+
+      <div class="own-column" id="main-column">
+        <div class="box">
+          <div class="field has-text-centered">
+            <h1>Enter a Location</h1>
+          </div>
+          <div class="field">
+            <label class="label">Country</label>
+            <div class="control">
+              <input
+                class="input"
+                type="text"
+                placeholder="Germany"
+                data-country-input
+              />
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">City</label>
+            <div class="control">
+              <input
+                class="input"
+                type="text"
+                placeholder="Hamburg"
+                data-city-input
+              />
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Arrival Date</label>
+            <div class="control">
+              <input type="date" data-arrival-date />
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Depature Date</label>
+            <div class="control">
+              <input type="date" data-depature-date />
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Image</label>
+            <div class="control">
+              <input
+                class="input"
+                type="text"
+                placeholder="Enter an Image URL!"
+                data-image-input
+              />
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Description</label>
+            <div class="control">
+              <textarea
+                class="textarea"
+                placeholder="Description..."
+                data-description-input
+              ></textarea>
+            </div>
+          </div>
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-info" data-submit-button>Submit</button>
+            </div>
+            <div class="control">
+              <button class="button is-link is-light"><a href="/travelapp/travelapp-endversion/travelapp.html">
+                Cancel</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <nav class="own-column own-nav">
+        <div class="nav-bottom">
+          <a
+            class="nav-item"
+            href="travelapp.html"
+          >
+            <span class="icon is-small is-left">
+              <i class="fa fas fas fas fa-home"></i> </span
+          ></a>
+          <a
+            class="nav-item"
+            href="addestination.html"
+          >
+            <span class="icon is-small is-left">
+              <i class="fa fas fas fas fa-plus"></i> </span
+          ></a>
+          <a
+            class="nav-item"
+            href="traveller.html"
+          >
+            <span class="icon is-small is-left">
+              <i class="fa fas fas fas fa-user"></i> </span
+          ></a>
+        </div>
+      </nav>
+    </main>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.js"></script>
+    <script src="addestination.js"></script>
+  </body>
+</html>

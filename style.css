@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(243, 243, 243);
+  }
+  main {
+    min-height: 100vh;
+    max-height: 100vh;
+  }
+  .text-white {
+    color: white; 
+  }
+
+  .own-column {
+    overflow: hidden;
+    padding: 10px;
+  }
+  #img-column {
+    padding: 0;
+    height: 30vh;
+    position: relative;
+    color: white;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(245, 246, 252, 0),
+        rgba(0, 0, 0, 0.534)
+      ),
+      url("https://www.hamburg.de/image/14475258/16x9/990/557/34b3e0792c7c8bc9a938029c27f9ad3a/Lm/hotel-hamburg-home-teaserbild.jpg");
+    background-size: cover;
+    background-position-x: 100%;
+    background-position-y: 100%;
+  }
+  #map-column {
+    height: 20vh;
+  }
+  #description-column {
+    height: 20vh;
+    hyphens: auto; 
+	  text-align: justify;
+    text-align-last: none;
+  }
+  #card-column {
+    height: 20vh;
+    width: 100%;
+  }
+  #main-column {
+    height: 90vh;
+    width: 100%;
+    }
+  .slide-container {
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  .own-nav {
+    height: 5vh;
+    margin: 0 0 0 20px;
+  }
+  .nav-top {
+    display: flex;
+  }
+  .nav-item {
+    margin: 0 20px 0 0;
+  }
+  .nav-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .city-img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .no-overflow {
+    overflow: hidden;
+  }
+  .min-height-hundred {
+    min-height: 100%;
+  }
+  .min-height-hundred {
+    max-height: 100%;
+  }
+  #holiday-card {
+    width: 150px;
+    height: 120px;
+  }
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    color: white;
+    left: 16px;
+  }
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+ 
+  @media only screen and (max-width: 768px) {
+    .nav-top {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    main {
+      margin: 0 200px 0 200px;
+    }
+    .nav-bottom {
+      display: none;
+    }
+    .slide-container {
+      /* background-color: aquamarine; */
+      min-width: 100%;
+    }
+    #img-column {
+      height: 30vh;
+    }
+    #map-column {
+      height: 20vh;
+    }
+    #description-box {
+      height: 25vh;
+    }
+    #card-column {
+      height: 20vh;
+      width: 100%;
+    }
+  }

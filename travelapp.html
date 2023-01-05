@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link 
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main>
+      <nav class="own-column own-nav">
+        <div class="nav-top">
+          <a class="nav-item" href="travelapp.html">
+            <span class="icon is-small is-left mr-2">
+              <i class="fa fas fas fas fa-home"></i> </span
+          >Home</a>
+          <a
+            class="nav-item"
+            href="addestination.html"
+          >
+            <span class="icon is-small is-left mr-2">
+              <i class="fa fas fas fas fa-plus"></i> </span
+          >Add</a>
+          <a class="nav-item" href="traveller.html">
+            <span class="icon is-small is-left mr-2">
+              <i class="fa fas fas fas fa-user"></i> </span
+          >Profile</a>
+        </div>
+      </nav>
+
+      <!---FIRST COLUMN IMAGE-->
+      <div class="own-column" id="img-column" data-background-image>
+        <div class="bottom-left">
+          <h1 class="title text-white" style="color: white" data-city-title>Hamburg</h1>
+          <h2 class="subtitle text-white" style="color: white" data-country-title>Germany</h2>
+        </div>
+        <div class="bottom-right">
+          <h1 class="title text-white" style="color: white" data-degrees>8°</h1>
+          <h2 class="subtitle text-white" style="color: white" data-weather-description>Rainy</h2>
+        </div>
+      </div>
+      <!---SECOND COLUMN MAP-->
+      <div class="own-column" id="map-column">
+        <div class="card no-overflow max-height-hundred">
+          <div id='map' style='height: 19vh;'></div>
+        </div>
+      </div>
+      <!---THIRT COLUMN DESCRIPTION-->
+      <div class="own-column" id="description-column">
+        <div class="box min-height-hundred no-overflow" data-description-box>
+          Your starting Location is Hamburg!
+        </div>
+      </div>
+      <!---FOURTH COLUMN CARDS-->
+      <div class="own-column is-flex" id="card-column">
+        <div class="slide-container" data-slide-container></div>
+      </div>
+      <nav class="own-column own-nav">
+        <div class="nav-bottom">
+          <a class="nav-item" href="travelapp.html">
+            <span class="icon is-small is-left">
+              <i class="fa fas fas fas fa-home"></i> </span
+          ></a>
+          <a
+            class="nav-item"
+            href="addestination.html"
+          >
+            <span class="icon is-small is-left">
+              <i class="fa fas fas fas fa-plus"></i> </span
+          ></a>
+          <a class="nav-item" href="traveller.html">
+            <span class="icon is-small is-left">
+              <i class="fa fas fas fas fa-user"></i> </span
+          ></a>
+        </div>
+      </nav>
+    </main>
+    
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.11.0/mapbox-gl.js'></script>
+    <script src="travelapp.js"></script>
+  </body>
+</html>
